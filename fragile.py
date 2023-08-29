@@ -221,7 +221,7 @@ def PSNR(original, compressed):
     (don't forget to add host and watermark image paths)
 """
 
-""" ##uncomment this block##
+""" ##uncomment this block to insert watermark##
 host_image = cv2.imread('host_image_path', 0)
 watermark_image = cv2.imread('watermark_image_path', 0)
 
@@ -238,7 +238,7 @@ cv2.imwrite('watermarked_image.png', watermarked_image)
     (don't forget to add watermarked image path)
 """
 
-""" ##uncomment this block##
+""" ##uncomment this block to extract watermark##
 watermarked_image_2 = cv2.imread('watermarked_image.png',0)
 
 extracted_watermark = extract_watermark(watermarked_image_2)

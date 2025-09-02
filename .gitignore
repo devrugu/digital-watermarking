@@ -1,0 +1,47 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+.mypy_cache/
+.pytype/
+.coverage
+htmlcov/
+.cache/
+pytestdebug.log
+.pytest_cache/
+
+# Virtual envs
+env/
+venv/
+.venv/
+ENV/
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Project outputs
+outputs/
+stego*.png
+extracted*.png
+heatmap*.png
+tamper_mask*.png
+used_wm*.png
+
+# Jupyter
+.ipynb_checkpoints/
